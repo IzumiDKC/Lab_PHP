@@ -28,7 +28,7 @@
 <body>
     <div class="header">
         <a href="/php/KiemTra/public/">Trang chủ</a>
-        <a href="/php/KiemTra/public/HocPhanController/index">Xem Học PHần</a>
+        <a href="/php/KiemTra/public/HocPhanController/index">Xem Học Phần</a>
         <a href="javascript:history.back()">Quay lại</a>
     </div>
     <div class="container">
