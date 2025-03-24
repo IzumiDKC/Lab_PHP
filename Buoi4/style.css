@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 20px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h2 {
+    color: #333;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+th {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+}
+
+td, th {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+a {
+    text-decoration: none;
+    padding: 5px 10px;
+    margin: 2px;
+    border-radius: 5px;
+}
+
+a[href*="student-add.php"] {
+    background-color: #28a745;
+    color: white;
+}
+
+a[href*="student-delete.php"] {
+    background-color: #dc3545;
+    color: white;
+}
+
+a[href*="student-add.php"]:not(td a),
+a[href*="logout.php"] {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 12px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+a:hover {
+    opacity: 0.8;
+}
+
+.session-id {
+    font-size: 14px;
+    color: gray;
+}
